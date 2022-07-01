@@ -1,29 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Intuit Climate 360 Frontend
+###### _Practical climate action for SMEs_
 
-## Getting Started
+This app suggests and tracks actions that SME stakeholders can take to reduce their ecological impact. 
 
-First, run the development server:
+## Quick Start
 
-```bash
-npm run dev
-# or
-yarn dev
+After cloning the repo get yourself a clean install of the dependencies
+
+```
+npm ci
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+to start the development server run
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+then head over to http://localhost:3000 to see the app running.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+We also have a set of recommended extensions for Visual Studio Code which can be installed via the extensions tab.
 
-## Learn More
+## What is this thing anyway?
 
-To learn more about Next.js, take a look at the following resources:
+This is a [Next.js](https://nextjs.org/) project 🕸
+It's styled with [Chakra](https://chakra-ui.com/) which is built on [Emotion](https://emotion.sh/docs/introduction) 👩‍🎤 💅
+It's got [Typescript](https://www.typescriptlang.org/)🗜
+It's got [Storybook](https://storybook.js.org/) 📚
+It's got [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) 🧼
+It's got [Husky](https://typicode.github.io/husky/#/) 🐶
+It's built on [Node v18.4.0](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md#18.4.0) (get [nvm](https://github.com/nvm-sh/nvm) if you don't have it already) 💻
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `dev`
 
+Runs the development server. 
+
+### `build`
+
+Bundles the app in production mode. You probably won't need to run this, that's CIs job.
+
+### `start` 
+
+Runs the bundled app. Again you'll probably never need this, it's for CD.
+
+### `storybook`
+
+Runs the storybook in development mode at http://localhost:6006. Hot reloading is enabled. 
+
+### `build:storybook`
+
+Creates a static bundle of the storybook. Primarily for CI/CD.
+
+### `format`
+
+Runs prettier in write mode. Made loads of changes but forgot to indent anything/wrote everything in one line/used the wrong kind of quotes/used semicolons? Just run this. 
+
+### `lint`
+
+Points out all your mistakes then promptly does nothing about them.
+
+### `lint:fix`
+
+Finds all your mistakes and fixes the ones that it can. 
+
+### `typecheck`
+
+finds type errors for you. 

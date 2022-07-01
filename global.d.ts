@@ -1,1 +1,2 @@
-declare './shared/intuit-oauth'
+declare
+;('./shared/intuit-oauth')

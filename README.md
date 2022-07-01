@@ -1,7 +1,8 @@
 # Intuit Climate 360 Frontend
+
 ###### _Practical climate action for SMEs_
 
-This app suggests and tracks actions that SME stakeholders can take to reduce their ecological impact. 
+This app suggests and tracks actions that SME stakeholders can take to reduce their ecological impact.
 
 ## Quick Start
 
@@ -35,19 +36,19 @@ It's built on [Node v18.4.0](https://github.com/nodejs/node/blob/main/doc/change
 
 ### `dev`
 
-Runs the development server. 
+Runs the development server.
 
 ### `build`
 
 Bundles the app in production mode. You probably won't need to run this, that's CIs job.
 
-### `start` 
+### `start`
 
 Runs the bundled app. Again you'll probably never need this, it's for CD.
 
 ### `storybook`
 
-Runs the storybook in development mode at http://localhost:6006. Hot reloading is enabled. 
+Runs the storybook in development mode at http://localhost:6006. Hot reloading is enabled.
 
 ### `build:storybook`
 
@@ -55,7 +56,7 @@ Creates a static bundle of the storybook. Primarily for CI/CD.
 
 ### `format`
 
-Runs prettier in write mode. Made loads of changes but forgot to indent anything/wrote everything in one line/used the wrong kind of quotes/used semicolons? Just run this. 
+Runs prettier in write mode. Made loads of changes but forgot to indent anything/wrote everything in one line/used the wrong kind of quotes/used semicolons? Just run this.
 
 ### `lint`
 
@@ -63,8 +64,8 @@ Points out all your mistakes then promptly does nothing about them.
 
 ### `lint:fix`
 
-Finds all your mistakes and fixes the ones that it can. 
+Finds all your mistakes and fixes the ones that it can.
 
 ### `typecheck`
 
-finds type errors for you. 
+finds type errors for you.

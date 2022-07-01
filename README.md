@@ -24,14 +24,14 @@ We also have a set of recommended extensions for Visual Studio Code which can be
 
 ## What is this thing anyway?
 
-This is a [Next.js](https://nextjs.org/) project 🕸
-It's styled with [Chakra](https://chakra-ui.com/) which is built on [Emotion](https://emotion.sh/docs/introduction) 👩‍🎤 💅
-It's got [Typescript](https://www.typescriptlang.org/)🗜
-It's got [Storybook](https://storybook.js.org/) 📚
-It's got [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) 🧼
-It's got [Husky](https://typicode.github.io/husky/#/) 🐶
-It's built on [Node v18.4.0](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md#18.4.0) (get [nvm](https://github.com/nvm-sh/nvm) if you don't have it already) 💻
-It's tested with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) 👩‍🔬
+- This is a [Next.js](https://nextjs.org/) project 🕸
+- It's styled with [Chakra](https://chakra-ui.com/) which is built on [Emotion](https://emotion.sh/docs/introduction) 👩‍🎤 💅
+- It's got [Typescript](https://www.typescriptlang.org/)🗜
+- It's got [Storybook](https://storybook.js.org/) 📚
+- It's got [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) 🧼
+- It's got [Husky](https://typicode.github.io/husky/#/) 🐶
+-It's built on [Node v18.4.0](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md#18.4.0) (get [nvm](https://github.com/nvm-sh/nvm) if you don't have it already) 💻
+- It's tested with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) 👩‍🔬
 
 ## Scripts
 

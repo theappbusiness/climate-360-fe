@@ -1,0 +1,9 @@
+.next
+build
+package-lock.json
+package.json
+.eslintrc.json
+.prettierrc.js
+next-env.d.ts
+next.config.js
+tsconfig.json

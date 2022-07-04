@@ -39,7 +39,23 @@ const colors = {
   },
 }
 
-export const theme = extendTheme({ colors })
+const fontSizes = {
+  Display01: '84px',
+  Display02: '72px',
+  Display03: '60px',
+  Headline01: '48px',
+  Headline02: '40px',
+  Headline03: '34px',
+  Headline04: '28px',
+  Headline05: '24px',
+  Headline06: '20px',
+  Body01: '20px',
+  Body02: '16px',
+  Body03: '14px',
+  Body04: '12px',
+}
+
+export const theme = extendTheme({ colors, fontSizes })
 
 const themeClone: Record<string, unknown> = { ...theme.colors }
 delete themeClone.transparent
@@ -47,4 +63,20 @@ delete themeClone.current
 delete themeClone.black
 delete themeClone.white
 
+const textThemeSizing: Record<string, unknown> = { ...theme.fontSizes }
+delete textThemeSizing['9xl']
+delete textThemeSizing['8xl']
+delete textThemeSizing['7xl']
+delete textThemeSizing['6xl']
+delete textThemeSizing['5xl']
+delete textThemeSizing['4xl']
+delete textThemeSizing['3xl']
+delete textThemeSizing['2xl']
+delete textThemeSizing['xl']
+delete textThemeSizing['lg']
+delete textThemeSizing['md']
+delete textThemeSizing['sm']
+delete textThemeSizing['xs']
+
 export const swatchableColors = Object.keys(themeClone)
+export const allTextSizes = Object.keys(textThemeSizing)

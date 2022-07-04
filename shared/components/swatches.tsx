@@ -47,12 +47,14 @@ export const Swatches: React.FC<SwatchesProps> = ({
       backgroundColor={backgroundColor}
       color={textColor}
       display="grid"
-      gridTemplateColumns="1fr 1fr 1fr 1fr 1fr"
+      gridTemplateColumns="1fr 1fr 1fr 1fr"
     >
       {swatchableColors.map((color) => {
         return (
           <Box key={color}>
-            <Heading m={2}>{color}</Heading>
+            <Heading fontSize={'xl'} m={2}>
+              {color}
+            </Heading>
             <Swatch color={color} />
           </Box>
         )

@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { ComponentStory } from '@storybook/react'
-import { theme } from '../theme'
+import { theme } from '../../theme'
 import { Swatches, SwatchesProps } from './swatches'
 
 const storyDirectory = {

@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
-import { swatchableColors, theme } from '../../theme'
+import { theme } from '../../theme'
 
 export interface SwatchProps {
   color: string
@@ -38,6 +38,14 @@ export interface SwatchesProps {
   textColor: string
 }
 
+const {
+  transparent: _transparent,
+  current: _current,
+  black: _black,
+  white: _white,
+  ...swatchableColors
+} = theme.colors
+export const swatchableColorNames = Object.keys(swatchableColors)
 export const Swatches: React.FC<SwatchesProps> = ({
   backgroundColor,
   textColor,
@@ -49,7 +57,7 @@ export const Swatches: React.FC<SwatchesProps> = ({
       display="grid"
       gridTemplateColumns="1fr 1fr 1fr 1fr"
     >
-      {swatchableColors.map((color) => {
+      {swatchableColorNames.map((color) => {
         return (
           <Box key={color}>
             <Heading fontSize={'xl'} m={2}>

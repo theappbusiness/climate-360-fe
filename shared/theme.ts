@@ -26,10 +26,3 @@ const fontSizes = {
 }
 
 export const theme = extendTheme({ colors, fontSizes })
-
-const themeClone: Record<string, unknown> = { ...theme.colors }
-delete themeClone.transparent
-delete themeClone.current
-delete themeClone.black
-delete themeClone.white
-export const swatchableColors = Object.keys(themeClone)

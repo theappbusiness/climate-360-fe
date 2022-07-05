@@ -1,7 +1,8 @@
 import { ButtonProps, ChakraProvider } from '@chakra-ui/react'
 import { ComponentStory } from '@storybook/react'
-import { swatchableColors, theme } from '../theme'
+import { theme } from '../theme'
 import { Button } from './button'
+import { swatchableColorNames } from './design-elements/swatches'
 
 const storyDirectory = {
   title: 'Components/Button',
@@ -10,7 +11,7 @@ const storyDirectory = {
     colorScheme: {
       control: {
         type: 'select',
-        options: swatchableColors,
+        options: swatchableColorNames,
       },
     },
     variant: {

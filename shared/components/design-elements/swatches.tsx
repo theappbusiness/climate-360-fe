@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
-import { swatchableColors, theme } from '../theme'
+import { swatchableColors, theme } from '../../theme'
 
 export interface SwatchProps {
   color: string

@@ -62,21 +62,4 @@ delete themeClone.transparent
 delete themeClone.current
 delete themeClone.black
 delete themeClone.white
-
-const textThemeSizing: Record<string, unknown> = { ...theme.fontSizes }
-delete textThemeSizing['9xl']
-delete textThemeSizing['8xl']
-delete textThemeSizing['7xl']
-delete textThemeSizing['6xl']
-delete textThemeSizing['5xl']
-delete textThemeSizing['4xl']
-delete textThemeSizing['3xl']
-delete textThemeSizing['2xl']
-delete textThemeSizing['xl']
-delete textThemeSizing['lg']
-delete textThemeSizing['md']
-delete textThemeSizing['sm']
-delete textThemeSizing['xs']
-
 export const swatchableColors = Object.keys(themeClone)
-export const allTextSizes = Object.keys(textThemeSizing)

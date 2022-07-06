@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "id": "1",
+      "category": "Energy Source",
+      "description": "Switch to renewable plan through local utility",
+      "priority": 2
+    },
+    {
+      "id": "2",
+      "category": "Energy Source",
+      "description": "Install rooftop solar",
+      "priority": 1
+    },
+    {
+      "id": "3",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient appliances",
+      "priority": 0
+    },
+    {
+      "id": "4",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient lighting (LED, fixtures)",
+      "priority": 1
+    }
+  ]
+}

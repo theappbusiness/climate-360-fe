@@ -1,6 +1,4 @@
-import { ChakraProvider } from '@chakra-ui/react'
 import { ComponentStory } from '@storybook/react'
-import { theme } from '../../theme'
 import { Swatches, SwatchesProps } from './swatches'
 
 const storyDirectory = {
@@ -11,9 +9,7 @@ const storyDirectory = {
 export default storyDirectory
 
 const Template: ComponentStory<typeof Swatches> = (props: SwatchesProps) => (
-  <ChakraProvider theme={theme}>
-    <Swatches {...props} />
-  </ChakraProvider>
+  <Swatches {...props} />
 )
 
 export const Primary = Template.bind({})

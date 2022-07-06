@@ -1,5 +1,6 @@
 import { Box, Container, Heading, Text } from '@chakra-ui/react'
 import type { GetServerSideProps, NextPage } from 'next'
+import { withDefaultLayout } from '../shared/components/layouts/default'
 
 interface Action {
   id: string
@@ -10,7 +11,7 @@ interface Action {
 
 type Actions = Action[]
 
-const Home: NextPage<{ actions: Actions }> = ({ actions }) => {
+const Actions: NextPage<{ actions: Actions }> = ({ actions }) => {
   return (
     <Container>
       <Heading>Actions</Heading>
@@ -49,4 +50,4 @@ export const getServerSideProps: GetServerSideProps<{
 }
 
 // eslint-disable-next-line import/no-default-export
-export default Home
+export default withDefaultLayout(Actions)

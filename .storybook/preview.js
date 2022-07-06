@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from '../shared/theme'
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 
 export const parameters = {
   actions: { argTypesRegex: '^on.*' },

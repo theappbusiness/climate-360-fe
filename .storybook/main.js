@@ -8,7 +8,7 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/addon-controls',
     '@storybook.addon-viewports',
-    '@storybook.addon-actions'
+    '@storybook.addon-actions',
   ],
   core: {
     builder: 'webpack5',

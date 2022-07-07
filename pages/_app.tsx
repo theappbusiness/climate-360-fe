@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from '../shared/theme'
-import { ActionsProvider } from '../shared/contexts/actionsContext'
+import { ActionsProvider } from '../shared/contexts/actions_context'
 
 function MyApp({ Component, pageProps }: AppProps): React.ReactNode {
   return (

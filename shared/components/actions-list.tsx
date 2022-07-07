@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
-import { useActions } from '../contexts/actionsContext'
+import { useActions } from '../contexts/actions_context'
 
 const ActionsList: React.FC = () => {
   const { actions } = useActions()

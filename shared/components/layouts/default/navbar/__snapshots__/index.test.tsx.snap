@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches the snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="css-n6fcxb"
+  >
+    <p
+      class="chakra-text css-1h8lr2g"
+    >
+      Climate 360
+    </p>
+    <button
+      class="chakra-button css-1efidcl"
+      type="button"
+    >
+      🍔
+    </button>
+    <div
+      class="css-8olkqp"
+    >
+      <div
+        class="chakra-stack css-enti4i"
+      >
+        <a
+          class="chakra-link css-0"
+          href="/learn"
+        >
+          Learn
+        </a>
+        <a
+          class="chakra-link css-0"
+          href="/calculate-co2"
+        >
+          Carbon footprint
+        </a>
+        <a
+          class="chakra-link css-0"
+          href="/help"
+        >
+          Get help
+        </a>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

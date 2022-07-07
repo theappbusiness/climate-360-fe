@@ -1,13 +1,6 @@
 import { Container } from '@chakra-ui/react'
 import type { GetServerSideProps, NextPage } from 'next'
 import ActionsList from '../shared/components/actions-list'
-interface Action {
-  id: string
-  category: string
-  description: string
-  priority: number
-}
-type Actions = Action[]
 
 const Home: NextPage = () => {
   return (
@@ -17,12 +10,8 @@ const Home: NextPage = () => {
   )
 }
 
-export const getServerSideProps: GetServerSideProps<{
-  actions: Actions
-}> = async () => {
-  const actions: Actions = await (
-    await fetch('http://localhost:3001/actions')
-  ).json()
+export const getServerSideProps: GetServerSideProps = async () => {
+  const actions = await (await fetch('http://localhost:3001/actions')).json()
 
   return { props: { actions } }
 }

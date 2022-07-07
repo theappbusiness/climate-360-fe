@@ -1,39 +1,18 @@
-import { Box, Container, Heading, Text } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
 import type { GetServerSideProps, NextPage } from 'next'
-
+import ActionsList from '../shared/components/actions-list'
 interface Action {
   id: string
   category: string
   description: string
   priority: number
 }
-
 type Actions = Action[]
 
-const Home: NextPage<{ actions: Actions }> = ({ actions }) => {
+const Home: NextPage<{ actions: Actions }> = () => {
   return (
     <Container>
-      <Heading>Actions</Heading>
-      {actions.map(({ id, description, priority, category }) => {
-        return (
-          <Box
-            key={id}
-            borderRadius="4"
-            borderWidth="1px"
-            borderStyle="solid"
-            borderColor="gray.200"
-            mb={2}
-            p={2}
-            background={'quickbooksSecondary.50'}
-          >
-            <Text fontStyle={'italic'} fontWeight={'bold'} color={'gray.400'}>
-              {category}
-            </Text>
-            <Heading>{description}</Heading>
-            <Text>Priority: {priority}</Text>
-          </Box>
-        )
-      })}
+      <ActionsList />
     </Container>
   )
 }

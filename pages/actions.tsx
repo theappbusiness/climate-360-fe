@@ -3,7 +3,7 @@ import type { GetServerSideProps, NextPage } from 'next'
 import { withDefaultLayout } from '../shared/components/layouts/default'
 import ActionsList from '../shared/components/actions-list'
 
-const Home: NextPage = () => {
+const Actions: NextPage = () => {
   return (
     <Container>
       <ActionsList />

@@ -9,7 +9,7 @@ interface Action {
 }
 type Actions = Action[]
 
-const Home: NextPage<{ actions: Actions }> = () => {
+const Home: NextPage = () => {
   return (
     <Container>
       <ActionsList />

@@ -23,6 +23,54 @@
       "category": "Energy Efficiency",
       "description": "Install energy efficient lighting (LED, fixtures)",
       "priority": 1
+    },
+    {
+      "id": "5",
+      "category": "Energy Source",
+      "description": "Switch to renewable plan through local utility",
+      "priority": 2
+    },
+    {
+      "id": "6",
+      "category": "Energy Source",
+      "description": "Install rooftop solar",
+      "priority": 1
+    },
+    {
+      "id": "7",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient appliances",
+      "priority": 0
+    },
+    {
+      "id": "8",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient lighting (LED, fixtures)",
+      "priority": 1
+    },
+    {
+      "id": "9",
+      "category": "Energy Source",
+      "description": "Switch to renewable plan through local utility",
+      "priority": 2
+    },
+    {
+      "id": "10",
+      "category": "Energy Source",
+      "description": "Install rooftop solar",
+      "priority": 1
+    },
+    {
+      "id": "11",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient appliances",
+      "priority": 0
+    },
+    {
+      "id": "12",
+      "category": "Energy Efficiency",
+      "description": "Install energy efficient lighting (LED, fixtures)",
+      "priority": 1
     }
   ]
 }
